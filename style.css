@@ -1,18 +1,17 @@
 *{
-    margin:0;
-    height:100%;
-    width:100%;
-  }
-  body{
-    height:100%;
-    width:100%;
+    width: 100%;
+    height: auto;
+}
+body{
+    margin-top: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    display:flex;
     justify-content: center;
-    align-items: center;
-    display:flex;
-  }
-  .container{
+}
+.container{
     border:1px solid red;
-    display:flex;
     height:800px;
     width: 1000px;
-  }
+    display:flex;
+}
