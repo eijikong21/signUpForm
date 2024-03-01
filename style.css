@@ -17,8 +17,6 @@ body{
     
 }
 .main-img{
-   
-  
     width:500px;
     height:100vh;
 }
@@ -26,8 +24,6 @@ body{
     height:auto;
     width: 100px;
  
-}
-.logo-bg{  
 }
 h1{
     display: flex;
@@ -40,4 +36,44 @@ h1{
     width:500px;
     opacity: .7;
     font-size: 75px;
+}
+.right{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+  
+}
+.first{
+    padding-left:30px;
+    padding-bottom:60px;
+    padding-top:70px;
+    background-color: gray;
+}
+.second{
+    padding-left:30px;
+    padding-bottom:30px;
+}
+.second-container{
+    display:flex;
+}
+.second-col{
+    margin-left: 100px;
+}
+input, label {
+    display:block;
+    
+}
+.third{
+    padding-bottom:100%;
+    background-color: gray;
+}
+.third>button,.third>p{
+    margin-left:30px;
+}
+button{
+    margin-top:50px;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 5px;
+    border-color: green;
 }
