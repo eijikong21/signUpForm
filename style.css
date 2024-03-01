@@ -10,7 +10,7 @@ body{
     justify-content: center;
 }
 .container{
-    border:1px solid red;
+
     height:auto;
     width: 1200px;
     display:flex;
